@@ -108,7 +108,7 @@ export default {
                         if (response.status === 202) {
                             this.$swal.fire(
                                 'Listo',
-                                '¡Se registró el ciclo correctamente!',
+                                '¡Se actualizó el ciclo correctamente!',
                                 'success'
                             )
                             this.getCycles()
